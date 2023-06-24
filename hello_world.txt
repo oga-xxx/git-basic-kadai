@@ -1,2 +1,13 @@
 Hello, world!
 こんにちは、世界！
+
+入力コマンド
+cd git_challenge
+git init
+git add hello_world.txt
+commit -m "hello_world.txtを追加"
+git add .  hello_world.txt
+git commit -m "日本語訳を追加"
+git_challenge % git log --oneline
+a02cb0f (HEAD -> main) 日本語訳を追加
+3941220 hello_world.txtを追加
